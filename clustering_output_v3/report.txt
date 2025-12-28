@@ -1,0 +1,38 @@
+=== V3 CLUSTERING ANALYSIS REPORT ===
+
+--- 1. CONFIGURATION ---
+Rotations Tested: 16 (Max-Pool Aggregation)
+UMAP Neighbors: 50
+HDBSCAN Min Cluster Size: 150
+
+--- 2. CLUSTERING STATISTICS ---
+Total Images: 8160
+Clusters Found: 11
+Noise Points: 3359
+Noise %: 41.16
+Avg Cluster Size: 436.45
+Max Cluster Size: 857
+Min Cluster Size: 173
+Embedding Dim: 384
+Embedding Variance: 5.917900085449219
+
+--- 3. DISTRIBUTION (Top 10 Clusters) ---
+
+--- 4. EXECUTION LOG ---
+Loading dataset...
+Loading DINOv2 on cuda...
+Starting extraction on 20805 images...
+Running UMAP (Global Structure)...
+Running HDBSCAN (Macro Clusters)...
+
+Top 10 Cluster Sizes:
+Cluster -1: 3359 images
+Cluster 7: 857 images
+Cluster 2: 664 images
+Cluster 3: 494 images
+Cluster 5: 452 images
+Cluster 8: 432 images
+Cluster 0: 391 images
+Cluster 10: 374 images
+Cluster 4: 344 images
+Cluster 1: 331 images
